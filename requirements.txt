@@ -1,0 +1,5 @@
+datetime
+colorama
+optparse
+requests
+socket

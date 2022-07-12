@@ -7,11 +7,10 @@ import socket
 import os
 def banner():
     print(Fore.BLACK+f"""
-     ____    _    ____  _   _
-    |  _ \  / \  / ___|| | | |
-    | | | |/ _ \ \___ \| |_| |
-    | |_| / ___ \ ___) |  _  |
-    |____/_/   \_\____/|_| |_| 1.6
+     _____  _______ _______ _______ 
+    |     \|   _   |     __|   |   |
+    |  --  |       |__     |       |
+    |_____/|___|___|_______|___|___| 1.6
 
                         [!] This OSINT Tool created and developed by TheSadError
     """)

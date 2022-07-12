@@ -2,6 +2,7 @@ import requests
 import json 
 from colorama import *
 import socket
+import scanlib.githubscrape as githubscrape
 udata = [
         "https://github.com/{}", # 1
         "https://instagram.com/{}",# 2
@@ -13,7 +14,7 @@ udata = [
         "https://vk.com/{}", # 8
         "https://www.reddit.com/user/{}", # 9
         "https://mix.com/{}", # 10
-        "https://{}.skyrock.com/"
+        "https://{}.skyrock.com/" # 11
 ]
 sdata = [
     "status", # 1 
@@ -29,10 +30,25 @@ sdata = [
     "status"# 11
 ]
 
+cdata = [
+    "Unknown", # 1
+    "Unknown", # 2
+    "Unknown",# 3
+    "Asia",# 4
+    "Unknown",# 5
+    "Asia", # 6
+    "Unknown",# 7
+    "Asisa",# 8
+    "Unknown",# 9
+    "Unknown",# 10
+    "Unknown",# 11
+]
+
 class info:
     country = []
     city = []
     age = 0
+    region = "World"
 
 def scan(username):
     print(Fore.BLACK+f"""
@@ -40,6 +56,8 @@ def scan(username):
     Social Media Scan : 
 
     """)
+    asia = 0
+    western = 0
     for i in range(0,len(udata)):
         if sdata[i] == "status":
             url = udata[i].format(username)
@@ -56,3 +74,16 @@ def scan(username):
                 print(Fore.GREEN+f"[+] User Found  : {url}")
             else:
                 print(Fore.RED+f"[!] Not Found  : {url}")
+
+        if asia>western :
+            info.region = "Asia"
+        elif western>asia:
+            info.region = "Western"
+        else:
+            info.region = "Unknown"
+    
+    print(Fore.BLACK+f"""
+    
+    Potantial Data : 
+    """)
+    githubscrape.getinfo(username)

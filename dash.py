@@ -7,7 +7,7 @@ import requests
 import socket 
 import os
 def banner():
-    print(Fore.BLACK+f"""
+    print(Fore.BLUE+f"""
      _____  _______ _______ _______ 
     |     \|   _   |     __|   |   |
     |  --  |       |__     |       |

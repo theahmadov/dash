@@ -23,7 +23,8 @@ udata = [
         "https://medium.com/@{}", # 17
         "https://digg.com/@{}", # 18
         "https://www.linkedin.com/in/{}", # 19
-        "https://www.deviantart.com/{}" # 20	
+        "https://www.deviantart.com/{}", # 20
+        "https://www.twitch.tv/{}" # 21	
 ]
 sdata = [
     "status", # 1 
@@ -45,7 +46,8 @@ sdata = [
     "status", # 17
     "status", # 18
     "status", # 19
-    "status" # 20
+    "status", # 20
+    "status" # 21
 ]
 
 

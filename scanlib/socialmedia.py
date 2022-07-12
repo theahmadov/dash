@@ -52,7 +52,7 @@ sdata = [
 
 
 def scan(username):
-    print(Fore.BLACK+f"""
+    print(Fore.BLUE+f"""
     
     Social Media Scan : 
 
@@ -76,7 +76,7 @@ def scan(username):
             else:
                 print(Fore.RED+f"[!] Not Found  : {url}")
     
-    print(Fore.BLACK+f"""
+    print(Fore.BLUE+f"""
     
     Potantial Data : 
     """)

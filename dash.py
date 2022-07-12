@@ -16,16 +16,15 @@ def banner():
     """)
 
 def start(username,time):
-    banner()
-    ip = requests.get("https://api.my-ip.io/ip").text
-    hostname = socket.gethostname()
-    print(Fore.BLUE+f"\nStarting DASH OSINT scanner... ( https://github.com/TheSadError/DASH ) Time : {time}")
+    banner()    
     print(Fore.RED+f"""
-    Your INFO :
-    
-    IP       : {ip}
-    HOSTNAME : {hostname}
+    Contact :
+
+    Github  : https://github.com/TheSadError
+    Youtube : https://www.youtube.com/channel/UCUfTuo3-85qD_7v1n-W98rw
+    Discord : err0r#4018
     """)
+    print(Fore.BLUE+f"\nStarting DASH OSINT scanner... ( https://github.com/TheSadError/DASH ) Time : {time}")
     socialmedia.scan(username)
 
 def main():

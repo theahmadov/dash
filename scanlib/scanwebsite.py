@@ -29,7 +29,7 @@ lst = [
 ]
 
 def scan(username):
-    print(Fore.BLACK+f"""
+    print(Fore.BLUE+f"""
     
     Website Domain Scan : 
 

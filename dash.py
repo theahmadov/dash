@@ -11,8 +11,9 @@ def banner():
     |  _ \  / \  / ___|| | | |
     | | | |/ _ \ \___ \| |_| |
     | |_| / ___ \ ___) |  _  |
-    |____/_/   \_\____/|_| |_| 1.3
+    |____/_/   \_\____/|_| |_| 1.6
 
+                        [!] This OSINT Tool created and developed by TheSadError
     """)
 
 def start(username,time):

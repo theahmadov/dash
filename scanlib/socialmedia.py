@@ -30,19 +30,6 @@ sdata = [
     "status"# 11
 ]
 
-cdata = [
-    "Unknown", # 1
-    "Unknown", # 2
-    "Unknown",# 3
-    "Asia",# 4
-    "Unknown",# 5
-    "Asia", # 6
-    "Unknown",# 7
-    "Asisa",# 8
-    "Unknown",# 9
-    "Unknown",# 10
-    "Unknown",# 11
-]
 
 def scan(username):
     print(Fore.BLACK+f"""

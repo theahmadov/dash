@@ -18,14 +18,14 @@ udata = [
 ]
 sdata = [
     "status", # 1 
-    "https://instagram.com/", # 2
+    "status", # 2
     "status",# 3
     "status",# 4
     "status",# 5
     "status",# 6
-    "https://www.pinterest.com/ideas/",# 7
+    "status",# 7
     "status",# 8
-    "status",# 9
+    "https://www.reddit.com/user/admwkdamwkdamwkawd",# 9
     "https://mix.com/", # 10
     "status"# 11
 ]

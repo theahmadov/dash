@@ -2,8 +2,7 @@ import json
 from re import I
 import requests
 from colorama import *
-import js
-
+import scanlib.js as js
 def getinfo(username):
     url = "https://api.github.com/users/{}".format(username)
     data = requests.get("https://api.github.com/users/{}".format(username)).text

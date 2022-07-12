@@ -14,7 +14,15 @@ udata = [
         "https://vk.com/{}", # 8
         "https://www.reddit.com/user/{}", # 9
         "https://mix.com/{}", # 10
-        "https://{}.skyrock.com/" # 11
+        "https://{}.skyrock.com/", # 11
+        "https://www.facebook.com/{}", # 12
+        "https://bionluk.com/{}", # 13
+        "https://gitlab.com/{}", # 14
+        "https://www.tiktok.com/@{}", # 15
+        "https://www.quora.com/{}", # 16
+        "https://medium.com/@{}", # 17
+        "https://digg.com/@{}", # 18
+        "https://www.linkedin.com/in/{}" # 19	
 ]
 sdata = [
     "status", # 1 
@@ -27,7 +35,15 @@ sdata = [
     "status",# 8
     "https://www.reddit.com/user/admwkdamwkdamwkawd",# 9
     "https://mix.com/", # 10
-    "status"# 11
+    "status",# 11
+    "status",# 12
+    "status", # 13
+    "https://gitlab.com/users/sign_in", # 14
+    "status", # 15
+    "status", # 16
+    "status", # 17
+    "status", # 18
+    "status" # 19
 ]
 
 

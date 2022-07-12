@@ -2,6 +2,7 @@ from colorama import *
 import optparse
 import datetime
 from scanlib import socialmedia
+from scanlib import scanwebsite
 import requests
 import socket 
 import os
@@ -27,6 +28,7 @@ def start(username,time):
     """)
     print(Fore.BLUE+f"\nStarting DASH OSINT scanner... ( https://github.com/TheSadError/DASH ) Time : {time}")
     socialmedia.scan(username)
+    scanwebsite.scan(username)
 
 def main():
     time= datetime.datetime.now()

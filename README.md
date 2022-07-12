@@ -18,7 +18,7 @@ DASH is deep osint Scanner. You just need username to start osint scan. Fast req
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-git clone https://github.com/TheSadError/DASH
+git clone https://github.com/TheSadError/dash
 cd DASH
 pip install -r requirements.txt
 python3 dash.py --u username

@@ -9,7 +9,7 @@ DASH is deep osint Scanner. You just need username to start osint scan. Fast req
 
 <div>
   <p align="center">
-    <img src="screen.png" width="800"> 
+    <img src="sc2.png" width="800"> 
   </p>
 </div>
 

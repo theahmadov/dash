@@ -22,7 +22,8 @@ udata = [
         "https://www.quora.com/{}", # 16
         "https://medium.com/@{}", # 17
         "https://digg.com/@{}", # 18
-        "https://www.linkedin.com/in/{}" # 19	
+        "https://www.linkedin.com/in/{}", # 19
+        "https://www.deviantart.com/{}" # 20	
 ]
 sdata = [
     "status", # 1 
@@ -43,7 +44,8 @@ sdata = [
     "status", # 16
     "status", # 17
     "status", # 18
-    "status" # 19
+    "status", # 19
+    "status" # 20
 ]
 
 

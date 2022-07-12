@@ -1,6 +1,12 @@
 # DASH
 
-DASH is deep osint Scanner. You just need username to start osint scan. Fast requesting and search more than 100 url.
+DASH is deep osint Scanner. You just need username to start osint scan. Fast requesting and you can find potantial info (Country , special data and more...). 
+
+<div>
+  <p align="center">
+    <img src="screen.png" width="800"> 
+  </p>
+</div>
 
 ## Installation
 

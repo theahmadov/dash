@@ -44,12 +44,6 @@ cdata = [
     "Unknown",# 11
 ]
 
-class info:
-    country = []
-    city = []
-    age = 0
-    region = "World"
-
 def scan(username):
     print(Fore.BLACK+f"""
     
@@ -74,16 +68,10 @@ def scan(username):
                 print(Fore.GREEN+f"[+] User Found  : {url}")
             else:
                 print(Fore.RED+f"[!] Not Found  : {url}")
-
-        if asia>western :
-            info.region = "Asia"
-        elif western>asia:
-            info.region = "Western"
-        else:
-            info.region = "Unknown"
     
     print(Fore.BLACK+f"""
     
     Potantial Data : 
     """)
+    print(Fore.BLUE+"Data from Github : ")
     githubscrape.getinfo(username)

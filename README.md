@@ -19,7 +19,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 git clone https://github.com/TheSadError/dash
-cd DASH
+cd dash
 pip install -r requirements.txt
 python3 dash.py --u username
 ```

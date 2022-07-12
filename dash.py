@@ -16,6 +16,7 @@ def banner():
     """)
 
 def start(username,time):
+    os.system('cls' if os.name=='nt' else 'clear')
     banner()    
     print(Fore.RED+f"""
     Contact :

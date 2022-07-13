@@ -38,9 +38,7 @@ def main():
     (options,args) = parser.parse_args()
     username = options.username
     if(username == None ):
-        banner()
-        print(parser.usage)
-        exit(0)
+        username = input(Fore.BLUE+"[+] Username : ")
     start(username,time)
 
 

@@ -4,8 +4,8 @@ from colorama import *
 import socket
 
 udata = [
-        "https://www.chess.com/member/{}" # 1
-        #"https://www.bikemap.net/en/u/{}/routes/created/",# 2
+        "https://www.chess.com/member/{}", # 1
+        "https://dribbble.com/{}"# 2
         #"https://forum.dangerousthings.com/u/{}/summary"# 3
         #"https://t.me/{}", # 4
         #"https://{}.tumblr.com/",# 5
@@ -27,8 +27,8 @@ udata = [
         #"https://www.twitch.tv/{}" # 21	
 ]
 sdata = [
-    "status" # 1 
-    #"status", # 2
+    "status", # 1 
+    "status" # 2
     #"status"  # 3
     #"status",# 4
     #"status",# 5

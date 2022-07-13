@@ -8,8 +8,8 @@ udata = [
         "https://www.bikemap.net/en/u/{}/routes/created/",# 2
         "https://forum.dangerousthings.com/u/{}/summary",# 3
         "https://forums.envato.com/u/{}", # 4
-        "https://www.cracked.com/members/{}"# 5
-        #"https://tieba.baidu.com/f?kw={}",# 6
+        "https://www.cracked.com/members/{}",# 5
+        "https://ask.fedoraproject.org/u/{}"# 6
         #"https://www.pinterest.com/{}",# 7
         #"https://vk.com/{}", # 8
         #"https://www.reddit.com/user/{}", # 9

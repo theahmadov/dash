@@ -66,7 +66,7 @@ def scan(username):
             if r.status_code == 200 : 
                 print(Fore.GREEN+f"[+] User Found : {url}")
             else:
-                print(Fore.RED+f"[!] Not Found  : {url}")
+                print(Fore.RED+f"[-] Not Found  : {url}")
         else:
             url = udata[i].format(username)
             r1 = requests.get(url).text
@@ -74,7 +74,7 @@ def scan(username):
             if r1 == r2:
                 print(Fore.GREEN+f"[+] User Found  : {url}")
             else:
-                print(Fore.RED+f"[!] Not Found  : {url}")
+                print(Fore.RED+f"[-] Not Found  : {url}")
     
     print(Fore.BLUE+f"""
     

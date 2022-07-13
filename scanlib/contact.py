@@ -6,9 +6,9 @@ import socket
 udata = [
         "https://ask.fm/{}", # 1
         "https://www.bikemap.net/en/u/{}/routes/created/",# 2
-        "https://forum.dangerousthings.com/u/{}/summary"# 3
-        #"https://t.me/{}", # 4
-        #"https://{}.tumblr.com/",# 5
+        "https://forum.dangerousthings.com/u/{}/summary",# 3
+        "https://forums.envato.com/u/{}", # 4
+        "https://www.cracked.com/members/{}"# 5
         #"https://tieba.baidu.com/f?kw={}",# 6
         #"https://www.pinterest.com/{}",# 7
         #"https://vk.com/{}", # 8
@@ -29,9 +29,9 @@ udata = [
 sdata = [
     "status", # 1 
     "status", # 2
-    "status"  # 3
-    #"status",# 4
-    #"status",# 5
+    "status",  # 3
+    "status",# 4
+    "https://www.cracked.com/"# 5
     #"status",# 6
     #"status",# 7
     #"status",# 8

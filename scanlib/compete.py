@@ -7,7 +7,7 @@ udata = [
         "https://www.chess.com/member/{}", # 1
         "https://dribbble.com/{}",# 2
         "https://{}.carbonmade.com/",# 3
-        "https://www.duolingo.com/profile/{}", # 4
+        "https://www.duolingo.com/profile/{}" # 4
         #"https://{}.tumblr.com/",# 5
         #"https://tieba.baidu.com/f?kw={}",# 6
         #"https://www.pinterest.com/{}",# 7

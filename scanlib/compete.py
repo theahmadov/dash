@@ -5,9 +5,9 @@ import socket
 
 udata = [
         "https://www.chess.com/member/{}", # 1
-        "https://dribbble.com/{}"# 2
-        #"https://forum.dangerousthings.com/u/{}/summary"# 3
-        #"https://t.me/{}", # 4
+        "https://dribbble.com/{}",# 2
+        "https://{}.carbonmade.com/",# 3
+        "https://www.duolingo.com/profile/{}", # 4
         #"https://{}.tumblr.com/",# 5
         #"https://tieba.baidu.com/f?kw={}",# 6
         #"https://www.pinterest.com/{}",# 7
@@ -28,9 +28,9 @@ udata = [
 ]
 sdata = [
     "status", # 1 
-    "status" # 2
-    #"status"  # 3
-    #"status",# 4
+    "status", # 2
+    "status",  # 3
+    "status"# 4
     #"status",# 5
     #"status",# 6
     #"status",# 7
@@ -54,7 +54,7 @@ sdata = [
 def scan(username):
     print(Fore.BLUE+f"""
     
-    Competitive & Portfolio Websites Scan : 
+    Competitive & Portfolio & Education Websites Scan : 
 
     """)
     asia = 0

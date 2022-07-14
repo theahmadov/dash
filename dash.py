@@ -35,6 +35,10 @@ def start(username,time):
     bitcoin.scan(username)
     contact.scan(username)
     compete.scan(username)
+    print(f"""
+
+    [+] {Fore.RED}Thanks You to use {Fore.BLUE}project dash. Dont forget to star and watch to get updates annoucements.
+    """)
 
 def main():
     time= datetime.datetime.now()

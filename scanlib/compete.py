@@ -7,54 +7,46 @@ udata = [
         "https://www.chess.com/member/{}", # 1
         "https://dribbble.com/{}",# 2
         "https://{}.carbonmade.com/",# 3
-        "https://www.duolingo.com/profile/{}" # 4
-        #"https://{}.tumblr.com/",# 5
-        #"https://tieba.baidu.com/f?kw={}",# 6
-        #"https://www.pinterest.com/{}",# 7
-        #"https://vk.com/{}", # 8
-        #"https://www.reddit.com/user/{}", # 9
-        #"https://mix.com/{}", # 10
-        #"https://{}.skyrock.com/", # 11
-        #"https://www.facebook.com/{}", # 12
-        #"https://bionluk.com/{}", # 13
-        #"https://gitlab.com/{}", # 14
-        #"https://www.tiktok.com/@{}", # 15
-        #"https://www.quora.com/{}", # 16
-        #"https://medium.com/@{}", # 17
-        #"https://digg.com/@{}", # 18
-        #"https://www.linkedin.com/in/{}", # 19
-        #"https://www.deviantart.com/{}", # 20
-        #"https://www.twitch.tv/{}" # 21	
+        "https://www.duolingo.com/profile/{}", # 4
+        "https://www.artstation.com/{}",# 5
+        "https://www.behance.net/{}",# 6
+        "https://www.buymeacoffee.com/{}",# 7
+        "https://codepen.io/{}", # 8
+        "https://www.colourlovers.com/lover/{}", # 9
+        "https://lichess.org/@/{}",
+        "https://www.lesswrong.com/users/{}",
+        "https://{}.newgrounds.com/",
+        "https://opensource.com/users/{}",
+        "https://pastebin.com/u/{}",
+        "https://www.polygon.com/users/{}",
+        "https://www.sportlerfrage.net/nutzer/{}",
+        "https://unsplash.com/@{}"
 ]
 sdata = [
     "status", # 1 
     "status", # 2
     "status",  # 3
-    "status"# 4
-    #"status",# 5
-    #"status",# 6
-    #"status",# 7
-    #"status",# 8
-    #"https://www.reddit.com/user/admwkdamwkdamwkawd",# 9
-    #"https://mix.com/", # 10
-    #"status",# 11
-    #"status",# 12
-    #"status", # 13
-    #"https://gitlab.com/users/sign_in", # 14
-    #"status", # 15
-    #"status", # 16
-    #"status", # 17
-    #"status", # 18
-    #"status", # 19
-    #"status", # 20
-    #"status" # 21
+    "status",# 4
+    "status",# 5
+    "status",# 6
+    "status",# 7
+    "status",# 8
+    "status",# 9
+    "status",
+    "status",
+    "status",
+    "status",
+    "status",
+    "status",
+    "status",
+    "status"
 ]
 
 
 def scan(username):
     print(Fore.BLUE+f"""
     
-    Competitive & Portfolio & Education Websites Scan : 
+    Competitive & Portfolio & Education & News Websites Scan : 
 
     """)
     asia = 0

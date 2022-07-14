@@ -19,7 +19,11 @@ udata = [
         "https://bionluk.com/{}", # 13
         "https://www.warriorforum.com/members/{}-1.html", # 14
         "https://forums.whonix.org/u/{}", # 15
-        "https://quantnet.com/members/{}.1/"
+        "https://quantnet.com/members/{}.1/",
+        "https://lobste.rs/u/{}",
+        "https://{}.livejournal.com/",
+        "https://www.producthunt.com/@{}",
+        "https://community.signalusers.org/u/{}"
 ]
 sdata = [
     "status", # 1 
@@ -37,6 +41,10 @@ sdata = [
     "status", # 13
     "status", # 14
     "status", # 15
+    "status",
+    "status",
+    "status",
+    "status",
     "status"
 ]
 

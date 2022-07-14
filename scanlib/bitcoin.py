@@ -5,56 +5,22 @@ import socket
 
 udata = [
         "https://www.minds.com/{}", # 1
-        "https://bitcoinforum.com/profile/{}/"# 2
-        #"https://twitter.com/{}",# 3
-        #"https://t.me/{}", # 4
-        #"https://{}.tumblr.com/",# 5
-        #"https://tieba.baidu.com/f?kw={}",# 6
-        #"https://www.pinterest.com/{}",# 7
-        #"https://vk.com/{}", # 8
-        #"https://www.reddit.com/user/{}", # 9
-        #"https://mix.com/{}", # 10
-        #"https://{}.skyrock.com/", # 11
-        #"https://www.facebook.com/{}", # 12
-        #"https://bionluk.com/{}", # 13
-        #"https://gitlab.com/{}", # 14
-        #"https://www.tiktok.com/@{}", # 15
-        #"https://www.quora.com/{}", # 16
-        #"https://medium.com/@{}", # 17
-        #"https://digg.com/@{}", # 18
-        #"https://www.linkedin.com/in/{}", # 19
-        #"https://www.deviantart.com/{}", # 20
-        #"https://www.twitch.tv/{}" # 21	
+        "https://bitcoinforum.com/profile/{}/",# 2
+        "https://www.analystforum.com/u/{}",# 3
+        "http://www.money-talk.org/profile.php?mode=viewprofile&u={}" # 4
 ]
 sdata = [
     "status", # 1 
-    "https://bitcoinforum.com/profile/adminofwebsite/" # 2
-    #"status",# 3
-    #"status",# 4
-    #"status",# 5
-    #"status",# 6
-    #"status",# 7
-    #"status",# 8
-    #"https://www.reddit.com/user/admwkdamwkdamwkawd",# 9
-    #"https://mix.com/", # 10
-    #"status",# 11
-    #"status",# 12
-    #"status", # 13
-    #"https://gitlab.com/users/sign_in", # 14
-    #"status", # 15
-    #"status", # 16
-    #"status", # 17
-    #"status", # 18
-    #"status", # 19
-    #"status", # 20
-    #"status" # 21
+    "https://bitcoinforum.com/profile/adminofwebsite/", # 2
+    "status",# 3
+    "http://www.money-talk.org/profile.php?mode=viewprofile&u=dawd"# 4
 ]
 
 
 def scan(username):
     print(Fore.BLUE+f"""
     
-    Bitcoin Websites Scan : 
+    Bitcoin & Financial Websites Scan : 
 
     """)
     asia = 0

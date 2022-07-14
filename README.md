@@ -23,7 +23,7 @@ cd dash
 pip install -r requirements.txt
 python3 dash.py --u username
 ```
-
+**Write to issues for any bug.**
 ## Usage
 
 ```python

@@ -18,7 +18,8 @@ udata = [
         "https://discourse.wicg.io/u/{}", # 12
         "https://bionluk.com/{}", # 13
         "https://www.warriorforum.com/members/{}-1.html", # 14
-        "https://forums.whonix.org/u/{}" # 15
+        "https://forums.whonix.org/u/{}", # 15
+        "https://quantnet.com/members/{}.1/"
 ]
 sdata = [
     "status", # 1 
@@ -35,7 +36,8 @@ sdata = [
     "status",# 12
     "status", # 13
     "status", # 14
-    "status" # 15
+    "status", # 15
+    "status"
 ]
 
 

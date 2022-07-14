@@ -9,45 +9,33 @@ udata = [
         "https://forum.dangerousthings.com/u/{}/summary",# 3
         "https://forums.envato.com/u/{}", # 4
         "https://www.cracked.com/members/{}",# 5
-        "https://ask.fedoraproject.org/u/{}"# 6
-        #"https://www.pinterest.com/{}",# 7
-        #"https://vk.com/{}", # 8
-        #"https://www.reddit.com/user/{}", # 9
-        #"https://mix.com/{}", # 10
-        #"https://{}.skyrock.com/", # 11
-        #"https://www.facebook.com/{}", # 12
-        #"https://bionluk.com/{}", # 13
-        #"https://gitlab.com/{}", # 14
-        #"https://www.tiktok.com/@{}", # 15
-        #"https://www.quora.com/{}", # 16
-        #"https://medium.com/@{}", # 17
-        #"https://digg.com/@{}", # 18
-        #"https://www.linkedin.com/in/{}", # 19
-        #"https://www.deviantart.com/{}", # 20
-        #"https://www.twitch.tv/{}" # 21	
+        "https://ask.fedoraproject.org/u/{}",# 6
+        "https://community.cryptomator.org/u/{}",# 7
+        "https://forum.ionicframework.com/u/{}", # 8
+        "https://discourse.joplinapp.org/u/{}", # 9
+        "https://forum.rclone.org/u/{}", # 10
+        "https://forum.sublimetext.com/u/{}", # 11
+        "https://discourse.wicg.io/u/{}", # 12
+        "https://bionluk.com/{}", # 13
+        "https://www.warriorforum.com/members/{}-1.html", # 14
+        "https://forums.whonix.org/u/{}" # 15
 ]
 sdata = [
     "status", # 1 
     "status", # 2
     "status",  # 3
     "status",# 4
-    "https://www.cracked.com/"# 5
-    #"status",# 6
-    #"status",# 7
-    #"status",# 8
-    #"https://www.reddit.com/user/admwkdamwkdamwkawd",# 9
-    #"https://mix.com/", # 10
-    #"status",# 11
-    #"status",# 12
-    #"status", # 13
-    #"https://gitlab.com/users/sign_in", # 14
-    #"status", # 15
-    #"status", # 16
-    #"status", # 17
-    #"status", # 18
-    #"status", # 19
-    #"status", # 20
-    #"status" # 21
+    "status",# 5
+    "status",# 6
+    "status",# 7
+    "status",# 8
+    "status",# 9
+    "status", # 10
+    "status",# 11
+    "status",# 12
+    "status", # 13
+    "status", # 14
+    "status" # 15
 ]
 
 

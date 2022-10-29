@@ -32,6 +32,7 @@ python3 dash.py # If you dont want to use parameters like --u . This command Wil
 ```
 ## Contact : 
 **Discord : err0r#4018**
+**Discord : artonus#1000**
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)  

@@ -31,7 +31,7 @@ python3 dash.py --u username # start OSINT
 python3 dash.py # If you dont want to use parameters like --u . This command Will ask you username and It will start to scan... Good Luck
 ```
 ## Contact : 
-**Discord : err0r#4018**
+**Discord : thesaderror#1351**
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)  
